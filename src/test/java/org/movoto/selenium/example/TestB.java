@@ -32,7 +32,7 @@ public class TestB {
 		String strPageTitle = driver.getTitle();
 		Assert.assertTrue(strPageTitle.equalsIgnoreCase("Google"), "Page title doesn't match");
 		*/
-		driver.navigate().to("http://172.17.0.7:80/productlist/");
+		driver.navigate().to("http://192.168.1.106:90/productlist/");
 		String strPageTitle = driver.getTitle();
 		Assert.assertTrue(strPageTitle.equalsIgnoreCase("angular-index.jsp"), "Page title doesn't match");
 	}
